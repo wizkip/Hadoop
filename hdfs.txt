@@ -1,0 +1,5 @@
+HDFS is a highly scalable and distributed file storage system used to store and retrieve large datasets
+in a highly replicated environment. The default replication factor is 3 meaning:
+   * No 2 blocks can reside in a single node
+   * If 2 blocks reside in the same Rack, the other Block must be outside the clustre
+

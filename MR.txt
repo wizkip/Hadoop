@@ -1,0 +1,19 @@
+MapReduce is a Dataprocessing framework written in Java making it code intensive. It utilizes parallel computing to 
+retrive, process and analyze data from stored large datasets. 
+
+When a MR job is created, it is executed in 2 phases:
+1. Map phase
+Here, the data is ingested into the map() function as input splits that are then read, sorted and filtered
+and placed in datasets that have Key Value pairs. This is then fed as INPUT to Reduce() function
+
+2. Reduce Phase
+The Reduce function then takes the dataset, changes the Values , aggregates and provides the desired output to the client.
+
+This is Map Reduce for you.
+
+But its tedious to use becaus of the many lines of code. Hence we have other efficient tools like:
+
+Apache spark, pig, and Hive
+
+
+

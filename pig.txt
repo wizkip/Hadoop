@@ -1,0 +1,18 @@
+Apache pig is a data processing framework that translates high level programming languages to Map reduce jobs. 
+It uses a data flow language.
+It is perfect for EXTRACT TRANSFORM and LOAD Jobs.
+
+It was developed by Yahoo as  a dat flow Language.
+
+Similarities between HIVE & pig
+ * All translate high-level languages to Mapreduce jobs.
+ * All offer significant reduction in program size over java.
+ * All provide points of extension to cover gaps in functionality.
+ * All provide interoperability with othe languages
+ * None support random reads/writes or low-latency queries.
+
+Hive -  A data warehouse tool that is built on top of hadoop. It was built by Facebook to introduce SQL Dielect 
+into Hadoop. It uses Declaration Language.
+ 
+It is good for Ad-hoc querries.
+

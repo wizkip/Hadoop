@@ -1,0 +1,4 @@
+Apache Spark is a data processing framework that processes and analyzes datasets in realtime taking adavantage
+of its inmemory cache feature where processing is done on the RAM and if it exceeds the capacity, it spills over to the disk.
+This framework has a high throughput and fast execution.
+

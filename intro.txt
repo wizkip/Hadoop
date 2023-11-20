@@ -1,0 +1,28 @@
+ Hadoop is an open source software framework that provides highly scalable distributed object file storage
+ service and parallel processing for large datasets in a highly replicated environment.
+
+ It is made of 4 components:
+  * HDFS
+  * MapReduce
+  * Yet another resource negotiator (YARN)
+  * Hadoop Common
+
+There are 4 processes that Run in a clustre. A clustre is a group of RACKS.
+ * Name node
+ * Data node
+ * Job tracker
+ * Task tracker
+
+Defination of terms:
+
+1. Metadata - Information from that is stored by name node. It contains RACK, Node, and block address
+2. Rack Awareness Algo - This is an algorithm used by NameNode process to dictate data node on how and where to store 
+the blocks without causing backlogs.
+3. Replication Factor - The number of times a Block is replicated in the nodes.
+By default its 3 in HDFS.
+4. Speculative Execution - This is invoked whne a Data Node slows down. The task is initiated in anothe node and once it is done,
+the slow node is killed.
+5. Failover fence - Decommissioning of nodes
+6. Secondary Name Node - This takes the snapshots of the Name node which comprise of metadata and edit logs and 
+stores in an image file called FSimage. This is for failover and availability
+
